@@ -1,0 +1,52 @@
+{
+  "name": "git-project-navigator",
+  "version": "0.0.1",
+  "description": "CLI tool for aiding in quickly navigating between various git projects on your machine.",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Justin Chmura",
+    "email": "justin.chmura@gmail.com",
+    "url": "https://justinchmura.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "gpn": "",
+    "git-project-navigator": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "npx tsc .",
+    "test": "jest --no-cache",
+    "lint": "npx eslint .",
+    "format": "npx prettier . --check",
+    "check-types": "npx tsc --noEmit",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinchmura/git-project-navigator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinchmura/git-project-navigator/issues"
+  },
+  "homepage": "https://github.com/justinchmura/git-project-navigator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.3",
+    "babel-jest": "^30.0.2",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.2.0",
+    "husky": "^9.1.7",
+    "jest": "^30.0.2",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.1"
+  }
+}
